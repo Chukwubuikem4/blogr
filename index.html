@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="font-6/css/all.css">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-gradient-intro">
+
+    <!-- Navigation inside header -->
+    <nav>
+      <h1 class="logo text-lg">Blogr</h1>
+
+      <!-- Desktop Navigation -->
+      <div id="desktop-navigation">
+          <ul class="desktop-left-nav">
+              <li>
+                <div class="menu">
+                  <a class="main" href="#">Product</a>
+                  <div class="image"></div>
+                </div>
+                <ul class="sub-menu">
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Marketplace</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Integrations</a></li>
+                </ul>
+            </li>
+  
+            <li>
+              <div class="menu">
+                <a class="main" href="#">Company</a>
+                <div class="image"></div>
+              </div>
+              <ul class="sub-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="menu">
+                <a class="main" href="#">Connect</a>
+                <div class="image"></div>
+              </div>
+              <ul class="sub-menu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+        
+          <ul class="desktop-right-nav">
+            <li><a class="special" href="#">Login</a></li>
+            <li><a class="btn-light"href="#">Sign Up</a></li>
+          </ul>
+
+      </div>
+
+      <!-- Hamburger Menu Button -->
+      <button type="button" class="hamburger" id="menu-btn">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu hidden pd-md" id="menu">
+
+      <div class="mobile-menu-nav">
+        <ul>
+            <li >
+              <div class="menu">
+                <a class="main text-md" href="#">Product</a>
+                <div class="image"></div>
+            </div>
+               
+              <ul class="sub-menu">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>
+              </ul>
+          </li>
+
+          <li>
+            <div class="menu">
+                <a class="main text-md" href="#">Company</a>
+                <div class="image"></div>
+            </div>
+
+            <ul class="sub-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="menu">
+                <a class="main text-md" href="#">Connect</a>
+                <div class="image"></div>
+            </div>
+
+            <ul class="sub-menu">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li class="special"><a href="#">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu-nav-b">
+        <ul>
+          <li><a class="text-md" href="#">Login</a></li>
+          <li><a  class="text-md special" href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <!-- Header Text -->
+    <div class="text-container">
+
+      <h2 class="text-lg">
+        A modern publishing platform
+      </h2>
+      <p> Grow your audience and build your online brand
+      </p>
+    </div>
+
+    <div class="buttons">
+      <div class="button">
+        <a href="" class="first btn-light">Start for Free</a>
+      </div>
+      <div class="button">
+        <a href="" class="second btn-no-bg">Learn More</a>
+      </div>
+    </div>
+
+  </header>
+ 
+  <!-- Section A -->
+  <section class="a">
+    <h3 id="first"> 
+      Designed for the future
+    </h3>
+
+    <div class="images"></div>
+
+    <div class="sub-container">
+
+      <h3>
+        Introducing an extensible editor
+      </h3>
+
+      <p class="text-md">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+        change the looks of a blog.</p>
+    </div>
+
+    <div class="sub-container">
+      <h3>
+        Robust content management
+      </h3>
+
+      <p class="text-md">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+        by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+    </div>
+    </div>
+  </section>
+
+  
+  <!-- Section B -->
+ 
+  <section class="b">
+    <div class="section-b-image">
+    </div>
+    <div class="text-container bg-gradient-body">
+     
+      <div class="sub-text-container">
+          <h3>
+            State of the Art Infrastructure
+          </h3>
+          <p  class="text-md">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="c">
+    <div class="image"></div>
+    <div class="mini-container">
+      <div class="sub-container">
+        <h3>Free, open, simple</h3>
+        <p class="text-md"> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      </div>
+      <div class="sub-container">
+        <h3> Powerful tooling</h3>
+        <p class="text-md"> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer>
+    <h1><a href="#">Blogr</a></h1>
+
+    <ul >
+      <li class="main"><a href="#">Product</a>
+        <ul class="sub">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+    </li>
+
+    <li class="main"><a href="#">Company</a>
+
+      <ul class="sub">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </li>
+    <li  class="main"><a href="#">Connect</a>
+
+      <ul class="special sub">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li class="special"><a href="#">LinkedIn</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
