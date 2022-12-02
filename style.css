@@ -394,13 +394,21 @@ section.b{
   justify-self: center;
   background: url('images/illustration-phones.svg') center top no-repeat;
   background-size: 330px;
-  padding: 11em 0;
+  padding: 14em 0;
   width: 100%;
 }
 
 section.b .text-container{
   text-align: center;
   padding: 13em 1.5em 13em 1.5em;
+  grid-area: overlap;
+  align-self: flex-end;
+  justify-self: center;
+}
+
+section.b .sub-text-container{
+  text-align: center;
+  padding: 5em 1.5em 13em 1.5em;
   grid-area: overlap;
   align-self: flex-end;
   justify-self: center;
