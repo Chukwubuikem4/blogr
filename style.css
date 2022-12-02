@@ -400,7 +400,7 @@ section.b{
 
 section.b .text-container{
   text-align: center;
-  padding: 13em 1.5em 13em 1.5em;
+  padding: 13em 1em;
   grid-area: overlap;
   align-self: flex-end;
   justify-self: center;
@@ -408,7 +408,7 @@ section.b .text-container{
 
 section.b .sub-text-container{
   text-align: center;
-  padding: 5em 1.5em 13em 1.5em;
+  padding: 8em 0em 13em 0em;
   grid-area: overlap;
   align-self: flex-end;
   justify-self: center;
