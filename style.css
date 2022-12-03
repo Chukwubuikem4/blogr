@@ -557,7 +557,7 @@ ul.sub{
   }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 994px){
 
   /* Background */
   .bg-gradient-intro{
@@ -805,7 +805,7 @@ ul.sub{
      flex-direction: row;
    }
 
-   .sub-text-container{
+   section.b .text-container .sub-text-container{
     display: flex;
     flex-direction: column;
     padding: 2em 0 0 45em;
@@ -902,7 +902,7 @@ ul.sub{
 
 }
 
-@media(max-width: 1380px){
+@media(max-width: 1300px){
   /* Section B */
 
   .section-b-image{
@@ -924,7 +924,9 @@ ul.sub{
 
 @media(max-width: 1250px){
    /* Section B */
-  
+   section.b .text-container .sub-text-container{
+    padding: 2em 0 0 32em;
+   }
    
    .section-b-image{
      right: 260px;
@@ -932,13 +934,6 @@ ul.sub{
    
 }
 
-@media(max-width: 1250px){
-  /* Section B */
-  .sub-text-container{
-   padding: 2em 0 0 34em;
-  }
-  
-}
 
 
 
